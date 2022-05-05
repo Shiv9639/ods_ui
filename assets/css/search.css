@@ -1,0 +1,254 @@
+
+.main-container {
+ background-color: #e6edf2;
+ width: 100%;
+ height:fit-content;
+ height: 650px;
+ display: flex;
+
+ flex-direction: row;
+
+}
+.flex-item-1 {
+width:240px;
+margin-bottom: 100px;
+} 
+.flex-item-22 {
+  margin-left: 100px;
+  width:500rem;
+  height: 400px;
+  margin-bottom: 150px;
+  /* overflow-y: auto; */
+}
+.white-paper-search {
+    display: flex;
+    background: white;
+    padding: 1px;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: -1rem;
+    height:145%;
+    width: 103%;
+    box-shadow: 8px 8px 15px #aaaaaa;
+}
+.middle-h4 {
+margin-left: 700px;
+color: #3692D9;
+}
+.flex-item-3 {
+  flex-direction: column;
+  margin-left: 30px;
+  width:300px;
+  height: 400px;
+  /* margin-bottom: 11.5rem; */
+  /* border-radius: 5px; */
+}
+
+/*searchbar */
+
+.container-search {
+    width: 87%;
+    position: absolute;
+    top:31%;
+    left:10%;
+    padding: 3px;
+    background: white;
+    background: linear-gradient(to right, rgb(241, 242, 242), rgb(216, 217, 218));
+    
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    /* border: 1px solid black; */
+   
+}
+ .search-bar-form {
+    width: 100%; 
+    max-width: 600px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 1px 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+    height: 63px;
+    margin-top: 2px;
+}
+
+.search-bar-form input {
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: rgb(44, 43, 43);
+    font-size: 23px;
+}
+::placeholder {
+    color:black;
+}
+
+
+.search-bar-form button img {
+ width: 25px;
+}
+.search-bar-form button{
+ border:0;
+ border-radius: 50%;
+ width: 60px;
+ height: 60px;
+ background: #58629b;
+ cursor: pointer;
+ margin-bottom: 16px;
+} 
+.display-results {
+  margin-top: 6%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.search-container {
+  padding: 10px 10px 10px 10px;
+}
+.search-header {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: blue;
+  cursor: pointer;
+}
+.search-sub-header {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    padding:1px 2px 5px 2px;
+    
+}
+.search-details {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+/*description box */
+.description-container {
+    background: white;
+    padding: 1px;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: -1rem;
+    height:145%;
+    width: 103%;
+    box-shadow: 8px 8px 15px #aaaaaa;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.desc-box {
+  min-height: 200px;
+  background: white;
+  width:98.5%;
+  /* border-radius: 7px; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 15px 25px 15px 15px;
+}
+.header-description {
+  margin: 15px 0px 10px 5px;
+  font-weight: 600;
+  color:black;
+
+}
+.article-description {
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 15px 25px 15px 15px;
+  border-bottom: 1px solid black;
+}
+.search-heading {
+  margin-top: 5px;
+  margin-right: 15px;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+.option-search select{
+  margin-right:5px;
+  width: 350px;
+  margin-top: 10px;
+  height: 50px;
+  border: 1;
+  outline: none;
+}
+  .select-drop {
+            width: 350px;
+            height: 45px;
+            padding: 4px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 8px #999;
+            background: #eee;
+            margin: 13px 10px 0px 0px; 
+            border: none;
+            outline: none;
+            display: inline-block;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+            font: 19px "Consolas", monospace;
+        }
+    .label-display{
+      font: 27px "Consolas", monospace;
+      margin: 18px 18px 0px 0px;
+
+    }
+        .label-search {
+            position: relative;
+        }
+    
+        .label-search:after {
+            content: '<>';
+            font: 17px "Consolas", monospace;
+            color: #666;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            transform: rotate(90deg);
+            right: 15px;
+            top: 21px;
+            border-bottom: 1px solid #ddd;
+            position: absolute;
+            pointer-events: none;
+        }
+    
+        .label-search:before {
+            content: '';
+            right: 10px;
+            top: 25px;
+            width: 20px;
+            height: 20px;
+            background: #eee;
+            position: absolute;
+            pointer-events: none;
+            display: block;
+        }
+  /*description box ends*/
+
+/* sitemap */
+.sitemap-container {
+    background: white;
+    padding: 1px;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: -1rem;
+    height:145%;
+    width: 99%;
+    box-shadow: 8px 8px 15px #5d5d5d;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.img-sitemap {
+ overflow-y: auto;
+ overflow-x: auto;
+
+}
+
+/* sitemap ends */

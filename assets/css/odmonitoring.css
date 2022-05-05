@@ -1,0 +1,335 @@
+/* monitoring top container */
+@font-face {
+  font-family: "Segoe UI Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Regular"),
+    url("/src/assets/fonts/Segoe UI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Italic"),
+    url("/src/assets/fonts/Segoe UI Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Bold"),
+    url("/src/assets/fonts/Segoe UI Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Bold Italic"),
+    url("/src/assets/fonts/Segoe UI Bold Italic.woff") format("woff");
+}
+body {
+  font-family: "Segoe UI Regular";
+}
+
+.ODHeader-container {
+  background: black;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Segoe UI Regular";
+}
+.frmOdm {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  margin: 4px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.odm {
+  background: black;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 17px 1px 5px 5rem;
+  font-family: "Segoe UI Bold";
+  flex-basis: 30%;
+}
+.odm-block2 {
+  color: black;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 17px 10px 10px 8px;
+  /* margin-left: 50px; */
+  border-radius: 5px;
+  flex-direction: row;
+  flex-basis: 30%;
+}
+.odm-block3 {
+  color: black;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 10px 10px 10px 8px;
+  border-radius: 5px;
+  flex-basis: 30%;
+}
+.odm-block4 {
+  color: black;
+  font-size: 5px;
+  font-weight: bold;
+  padding: 27px 9px 0px 9px;
+  border-radius: 5px;
+  flex-basis: 10%;
+}
+
+/* DC Header container */
+.DCHeader-main {
+  border-radius: 10px;
+  box-shadow: 8px 8px 15px #aaaaaa;
+  width: 100%;
+  overflow: auto;
+  direction: ltr;
+  scroll-behavior: smooth;
+}
+.DCHeader-container {
+  background: rgb(221, 221, 223);
+  padding: 1px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  height: 75px;
+  width: 100%;
+  /* padding-left: 50px; */
+  font-family: "Segoe UI Regular";
+}
+.dc-content {
+  font-size: 15px;
+  flex: 1;
+}
+.dc-odm {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 17px 1px 10px 6rem;
+  font-family: "Segoe UI Regular";
+}
+.loadingCenter {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+/* SAP Header container */
+.SAPHeader-container {
+  background: rgb(221, 221, 223);
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 75px;
+  width: 100%;
+
+}
+
+.sap-content {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 45px;
+  margin: 4px;
+  flex: 1;
+} 
+.button-submit-odm {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 0px 2px 0px 2px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80px;
+  height: 37px;
+  border-radius: 5px;
+  margin-top: -1px;
+}
+.button-span {
+  padding: 1px 2px 1px 5px;
+}
+.fa-right{
+  font-size: 17px;
+}
+
+.sap-odm {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 17px 1px 10px 8px;
+}
+.sap-odm-na {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 17px 1px 10px 8px; 
+ 
+}
+.p-sap-na {
+  font-weight: 800;
+  margin-left: 5rem;
+  font-size: 25px;
+  color: #9a4710;
+}
+.p-sap-hd {
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 7px;
+  
+}
+.p-sap-nr {
+  font-weight: 800;
+  margin-left: 5rem;
+  font-size: 25px;
+}
+
+/* WMS container */
+.WMSHeader-container {
+  background: rgb(221, 221, 223);
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 75px;
+  width: 100%;
+}
+.wms-content {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  margin: 2px;
+  flex: 1;
+  flex-grow: 1;
+}
+.wms-odm {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 17px 1px 10px 8px;
+  flex: 1;
+  flex-grow: 1;
+}
+.wms-ev-color {
+  background: #66b3ff;
+}
+
+.w-sap-hd {
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 7px;
+}
+.w-sap-nr {
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media all and (max-width: 600px) {
+  .ODHeader-container {
+    display: flex;
+    justify-content: center;
+    width: 66%;
+    margin-left: 17.9rem;
+    height: 110px;
+    margin-top: 20px;
+  }
+  .block1.content.odm {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+
+  .DCHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 69%;
+    font-family: "Segoe UI Regular";
+    margin-left: 280px;
+  }
+
+  .SAPHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 69%;
+    margin-left: 280px;
+  }
+  .WMSHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 69%;
+    margin-left: 280px;
+  }
+}
+@media all and (max-width: 300px) {
+  .ODHeader-container {
+    display: flex;
+    justify-content: center;
+    width: 56%;
+    margin-left: 25rem;
+    height: 110px;
+    margin-top: 20px;
+  }
+  .block1.content.odm {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+
+  .DCHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 58%;
+    font-family: "Segoe UI Regular";
+    margin-left: 25rem;
+  }
+  .SAPHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 56%;
+    margin-left: 24.5rem;
+  }
+  .WMSHeader-container {
+    background: rgb(221, 221, 223);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 75px;
+    width: 56%;
+    margin-left: 25rem;
+  }
+}

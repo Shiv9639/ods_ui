@@ -1,0 +1,105 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+  background-color: rgb(246, 243, 243);
+}
+
+.login-section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(119, 118, 118, 0.4);
+    border-radius: 7px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding: 1px 10px 20px 1px;
+    /* padding-bottom: 1rem; */
+} 
+.login-label,
+button {
+  margin-top: 1rem;
+}
+
+.login-button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 30%;
+} 
+
+.login-input[type="text"],
+.login-input[type="password"],
+.login-button,
+.login-textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+} 
+.line {
+    display: inline-block;
+    margin: 10px;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.login-options {
+    display: flex;
+}
+.login-options p{
+    margin-right: 20px;
+}
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+.hide {
+    display: none;
+}
+
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}

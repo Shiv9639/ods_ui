@@ -1,0 +1,90 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+
+  }
+  
+ td,th {
+    border: 1px solid #ddd;
+    padding: 3px 25px;
+    text-align: center;
+  }
+ table td {
+   width: 100;
+ }
+ table td:nth-child(2) {
+    padding: 11px 4px 0px 0px;
+  }
+  .search  {
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 3px #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  float: right;
+  }
+   
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  table tr:hover {background-color: #ddd;}
+  table th, tfoot{
+    padding-top: 8px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #878887;
+    color: white;
+  }
+
+ .table-input {
+   height: 30px;
+   border-radius: 5px;
+   border:none;
+   width: 250px;
+ }
+.search-span {
+  color: #878887;
+  margin-right: 3px;
+  font-size: 17px;
+}
+  .page {
+    text-align: center;
+    padding: 4px 0 10px 0;
+  }
+
+.pageInput {
+  margin-left: 1px;
+  height:35px;
+  border-radius: 4px;
+  outline:none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: 2px solid #AAA;
+}
+.pageInput[type=number], select {
+  padding: 5px 10px;
+  margin: 8px 0;
+  height:35px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button-extract {
+  padding: 5px 10px;
+  margin: 8px 0;
+  height:35px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.fa-sort {
+  position: absolute;
+  color: #FFD7C2;
+  padding: 1px 2px 0px 0px;
+}
+.fa-sort:hover {
+  color: #FFD7C2;
+}   
+
