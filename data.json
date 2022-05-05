@@ -1,0 +1,471 @@
+{
+    "dcname": [
+      {
+        "DCName": "D003",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "9213",
+        "OD_IN_WMS": "9210",
+        "OD_NOT_IN_WMS": "3",
+        "OD_IN_TMS": "538",
+        "OD_NOT_IN_TMS": "653",
+        "OD_PLANNNED_IN_TMS": "538",
+        "OD_NOT_PLANNED_IN_TMS": "603",
+        "WM_ROUTE_PRESENT": "9188",
+        "WM_ROUTE_NOT_PRESENT": "25"
+      },
+        {
+        "DCName": "D004",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": "4567",
+        "OD_NOT_IN_WMS": "5",
+        "OD_IN_TMS": "234",
+        "OD_NOT_IN_TMS":"235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "220",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "125"
+      },
+       {
+        "DCName": "D006",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "2234",
+        "OD_IN_WMS": "45",
+        "OD_NOT_IN_WMS": "54",
+        "OD_IN_TMS": "423",
+        "OD_NOT_IN_TMS":"1235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "777",
+        "WM_ROUTE_PRESENT": "88",
+        "WM_ROUTE_NOT_PRESENT": "1125"
+      },
+       {
+        "DCName": "D010",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "34",
+        "OD_IN_WMS": "67",
+        "OD_NOT_IN_WMS": "25",
+        "OD_IN_TMS": "34",
+        "OD_NOT_IN_TMS":"235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "210",
+        "WM_ROUTE_PRESENT": "88",
+        "WM_ROUTE_NOT_PRESENT": "625"
+      },
+       {
+        "DCName": "D012",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "333",
+        "OD_IN_WMS": "444",
+        "OD_NOT_IN_WMS": "55",
+        "OD_IN_TMS": "666",
+        "OD_NOT_IN_TMS":"777" ,
+        "OD_PLANNNED_IN_TMS": "6666",
+        "OD_NOT_PLANNED_IN_TMS": "989",
+        "WM_ROUTE_PRESENT": "343",
+        "WM_ROUTE_NOT_PRESENT": "15"
+      },
+       {
+        "DCName": "D014",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "34",
+        "OD_IN_WMS": "67",
+        "OD_NOT_IN_WMS": "15",
+        "OD_IN_TMS": "14",
+        "OD_NOT_IN_TMS":"1235" ,
+        "OD_PLANNNED_IN_TMS": "1234",
+        "OD_NOT_PLANNED_IN_TMS": null,
+        "WM_ROUTE_PRESENT": "767",
+        "WM_ROUTE_NOT_PRESENT": "564"
+      },
+       {
+        "DCName": "D015",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "3433",
+        "OD_IN_WMS": "1234",
+        "OD_NOT_IN_WMS": "55",
+        "OD_IN_TMS": "134",
+        "OD_NOT_IN_TMS":"2335" ,
+        "OD_PLANNNED_IN_TMS": "1234",
+        "OD_NOT_PLANNED_IN_TMS": "110",
+        "WM_ROUTE_PRESENT": "454",
+        "WM_ROUTE_NOT_PRESENT": "454"
+      },
+       {
+        "DCName": "D016",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "400",
+        "OD_IN_WMS": "600",
+        "OD_NOT_IN_WMS": "500",
+        "OD_IN_TMS": null,
+        "OD_NOT_IN_TMS":"565" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "120",
+        "WM_ROUTE_PRESENT": "88",
+        "WM_ROUTE_NOT_PRESENT": "78"
+      },
+       {
+        "DCName": "D017",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "2234",
+        "OD_IN_WMS": "756",
+        "OD_NOT_IN_WMS": "345",
+        "OD_IN_TMS": "456",
+        "OD_NOT_IN_TMS":"454" ,
+        "OD_PLANNNED_IN_TMS": "323",
+        "OD_NOT_PLANNED_IN_TMS": "1230",
+        "WM_ROUTE_PRESENT": "6188",
+        "WM_ROUTE_NOT_PRESENT": "3425"
+      },
+       {
+        "DCName": "D020",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "343",
+        "OD_IN_WMS": "7453",
+        "OD_NOT_IN_WMS": "5342",
+        "OD_IN_TMS": null,
+        "OD_NOT_IN_TMS":"2535" ,
+        "OD_PLANNNED_IN_TMS": "12345",
+        "OD_NOT_PLANNED_IN_TMS": "450",
+        "WM_ROUTE_PRESENT": "4523",
+        "WM_ROUTE_NOT_PRESENT": "543"
+      },
+       {
+        "DCName": "D021",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "645",
+        "OD_IN_WMS": "7453",
+        "OD_NOT_IN_WMS": "533",
+        "OD_IN_TMS": "555",
+        "OD_NOT_IN_TMS":"23423" ,
+        "OD_PLANNNED_IN_TMS": "4343",
+        "OD_NOT_PLANNED_IN_TMS": "1234",
+        "WM_ROUTE_PRESENT": null,
+        "WM_ROUTE_NOT_PRESENT": null
+      },
+       {
+        "DCName": "D022",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "4534",
+        "OD_IN_WMS": "123",
+        "OD_NOT_IN_WMS": "51",
+        "OD_IN_TMS": "23",
+        "OD_NOT_IN_TMS":"675",
+        "OD_PLANNNED_IN_TMS": "234",
+        "OD_NOT_PLANNED_IN_TMS": "676",
+        "WM_ROUTE_PRESENT": null,
+        "WM_ROUTE_NOT_PRESENT": "1252"
+      },
+       {
+        "DCName": "D024",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "3422",
+        "OD_IN_WMS": "4533",
+        "OD_NOT_IN_WMS": "5333",
+        "OD_IN_TMS": "2334",
+        "OD_NOT_IN_TMS":"2353" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "1033",
+        "WM_ROUTE_PRESENT": "8833",
+        "WM_ROUTE_NOT_PRESENT": "3325"
+      },
+       {
+        "DCName": "D028",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "324",
+        "OD_IN_WMS": "722",
+        "OD_NOT_IN_WMS": "2225",
+        "OD_IN_TMS": "999",
+        "OD_NOT_IN_TMS":"324" ,
+        "OD_PLANNNED_IN_TMS": "322",
+        "OD_NOT_PLANNED_IN_TMS": "1240",
+        "WM_ROUTE_PRESENT": "3434",
+        "WM_ROUTE_NOT_PRESENT": "3333"
+      },
+       {
+        "DCName": "D030",
+        "date": "2022-04-10",
+        "OD_IN_SAP": null,
+        "OD_IN_WMS": null,
+        "OD_NOT_IN_WMS": null,
+        "OD_IN_TMS": "114",
+        "OD_NOT_IN_TMS":"444" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "1230",
+        "WM_ROUTE_PRESENT": "5644",
+        "WM_ROUTE_NOT_PRESENT": "444"
+      },
+       {
+        "DCName": "D031",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "343",
+        "OD_IN_WMS": "755",
+        "OD_NOT_IN_WMS": "45235",
+        "OD_IN_TMS": "5234",
+        "OD_NOT_IN_TMS":"6235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "7660",
+        "WM_ROUTE_PRESENT": "8888",
+        "WM_ROUTE_NOT_PRESENT": "533"
+      },
+       {
+        "DCName": "D032",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "343",
+        "OD_IN_WMS": "6667",
+        "OD_NOT_IN_WMS": "235",
+        "OD_IN_TMS": "4234",
+        "OD_NOT_IN_TMS":"6235" ,
+        "OD_PLANNNED_IN_TMS": "1232",
+        "OD_NOT_PLANNED_IN_TMS": null,
+        "WM_ROUTE_PRESENT": "8833",
+        "WM_ROUTE_NOT_PRESENT": "5125"
+      },
+       {
+        "DCName": "D033",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "3333",
+        "OD_IN_WMS": "4444",
+        "OD_NOT_IN_WMS": "5555",
+        "OD_IN_TMS": "555",
+        "OD_NOT_IN_TMS":"666" ,
+        "OD_PLANNNED_IN_TMS": "777",
+        "OD_NOT_PLANNED_IN_TMS": "8888",
+        "WM_ROUTE_PRESENT": "999",
+        "WM_ROUTE_NOT_PRESENT": "1252"
+      },
+       {
+        "DCName": "D034",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": "4567",
+        "OD_NOT_IN_WMS": "5",
+        "OD_IN_TMS": "234",
+        "OD_NOT_IN_TMS":"235",
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "2340",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "125"
+      },
+       {
+        "DCName": "D035",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": "34567",
+        "OD_NOT_IN_WMS": "3225",
+        "OD_IN_TMS": "2234",
+        "OD_NOT_IN_TMS":"255" ,
+        "OD_PLANNNED_IN_TMS": "444",
+        "OD_NOT_PLANNED_IN_TMS": "444",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "2125"
+      },
+       {
+        "DCName": "D037",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "234",
+        "OD_IN_WMS": "4567",
+        "OD_NOT_IN_WMS": "225",
+        "OD_IN_TMS": "2234",
+        "OD_NOT_IN_TMS":"2345" ,
+        "OD_PLANNNED_IN_TMS": "1234",
+        "OD_NOT_PLANNED_IN_TMS": "220",
+        "WM_ROUTE_PRESENT": "444",
+        "WM_ROUTE_NOT_PRESENT": "3335"
+      },
+       {
+        "DCName": "D050",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "3334",
+        "OD_IN_WMS": "5557",
+        "OD_NOT_IN_WMS": null,
+        "OD_IN_TMS": "33",
+        "OD_NOT_IN_TMS":"3235" ,
+        "OD_PLANNNED_IN_TMS": "3222",
+        "OD_NOT_PLANNED_IN_TMS": "643",
+        "WM_ROUTE_PRESENT": "332",
+        "WM_ROUTE_NOT_PRESENT": "333"
+      },
+       {
+        "DCName": "D060",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "333",
+        "OD_IN_WMS": "444",
+        "OD_NOT_IN_WMS": "2225",
+        "OD_IN_TMS": "555",
+        "OD_NOT_IN_TMS":"6666" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "220",
+        "WM_ROUTE_PRESENT": "444",
+        "WM_ROUTE_NOT_PRESENT": "5525"
+      },
+       {
+        "DCName": "D061",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": null,
+        "OD_NOT_IN_WMS": "5",
+        "OD_IN_TMS": "234",
+        "OD_NOT_IN_TMS":"235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "608",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "125"
+      },
+       {
+        "DCName": "D067",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "334",
+        "OD_IN_WMS": "367",
+        "OD_NOT_IN_WMS": "335",
+        "OD_IN_TMS": "1234",
+        "OD_NOT_IN_TMS":"1235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "110",
+        "WM_ROUTE_PRESENT": "881",
+        "WM_ROUTE_NOT_PRESENT": "1125"
+      },
+       {
+        "DCName": "D070",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "3234",
+        "OD_IN_WMS": "43567",
+        "OD_NOT_IN_WMS": "335",
+        "OD_IN_TMS": null,
+        "OD_NOT_IN_TMS":"1235" ,
+        "OD_PLANNNED_IN_TMS": "234",
+        "OD_NOT_PLANNED_IN_TMS": "677",
+        "WM_ROUTE_PRESENT": "333",
+        "WM_ROUTE_NOT_PRESENT": "444"
+      },
+       {
+        "DCName": "D071",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": "4567",
+        "OD_NOT_IN_WMS": "5",
+        "OD_IN_TMS": "234",
+        "OD_NOT_IN_TMS":"235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "2345",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "125"
+      },
+       {
+        "DCName": "D072",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "1234",
+        "OD_IN_WMS": "4567",
+        "OD_NOT_IN_WMS": "5",
+        "OD_IN_TMS": "234",
+        "OD_NOT_IN_TMS":"235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "230",
+        "WM_ROUTE_PRESENT": "4188",
+        "WM_ROUTE_NOT_PRESENT": "125"
+      },
+       {
+        "DCName": "D080",
+        "date": "2022-04-10",
+        "OD_IN_SAP": "314",
+        "OD_IN_WMS": "671",
+        "OD_NOT_IN_WMS": "1115",
+        "OD_IN_TMS": "2341",
+        "OD_NOT_IN_TMS":"1235" ,
+        "OD_PLANNNED_IN_TMS": null,
+        "OD_NOT_PLANNED_IN_TMS": "3330",
+        "WM_ROUTE_PRESENT": "4144",
+        "WM_ROUTE_NOT_PRESENT": "888"
+      }
+    ],
+    "landing-content":[
+      {
+        "id": 1,
+        "landing_th": "OD Monitoring",
+        "landing_sh": "Monitor DC Operation",
+        "landing_img": "../assets/images/tec1.jpg",
+        "landing_content": "OD MONITORING Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo hic in, possimus doloremque voluptas illo eum fugit officia velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo impedit ipsam adipisci libero qui obcaecati aliquid consequuntur iusto nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, laborum?"
+      },
+      {
+        "id": 2,
+        "landing_th": "Data Extract",
+        "landing_sh": "Data Extract Dashboard",
+        "landing_img": "../assets/images/tec2.jpg",
+        "landing_content": "DATA EXTRACT Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo hic in, possimus doloremque voluptas illo eum fugit officia velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo impedit ipsam adipisci libero qui obcaecati aliquid consequuntur iusto nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, laborum?"
+      },
+      {
+        "id": 3,
+        "landing_th": "MMS Dashboard",
+        "landing_sh": "MMS Data Automation",
+        "landing_img": "../assets/images/tec3.jpg",
+        "landing_content": "MMS DASHBOARD Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo hic in, possimus doloremque voluptas illo eum fugit officia velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo impedit ipsam adipisci libero qui obcaecati aliquid consequuntur iusto nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, laborum?"
+      },
+      {
+        "id": 4,
+        "landing_th": "Data Search",
+        "landing_sh": "Data Searching Functionalities",
+        "landing_img": "../assets/images/tec2.jpg",
+        "landing_content": "DATA SEARCH Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo hic in, possimus doloremque voluptas illo eum fugit officia velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo impedit ipsam adipisci libero qui obcaecati aliquid consequuntur iusto nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, laborum?"
+      }
+    ],
+       "search-api":[
+         {
+           "id":1,
+           "DISPLAY_ID": "1",
+           "APILink": "OD Monitoring",
+           "DataDesc": "OD Monitoring test data",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+         {
+           "id": 2,
+           "DISPLAY_ID": "2",
+           "APILink": "MMS Feed",
+           "DataDesc": "MMS Feed test data",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+         {
+           "id": 3,
+           "DISPLAY_ID": "3",
+           "APILink": "Data Search",
+           "DataDesc": "Data Search",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+         {
+           "id": 4,
+           "DISPLAY_ID": "4",
+           "APILink": "Functionality testing",
+           "DataDesc": "Functionality testing",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+         {
+           "id":5,
+           "DISPLAY_ID": "5",
+           "APILink": "Content Management",
+           "DataDesc": "Content Management",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+         {
+           "id": 6,
+           "DISPLAY_ID": "6",
+           "APILink": "User Interface",
+           "DataDesc": "User Interface addon",
+           "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+         },
+          {
+            "id": 7,
+            "DISPLAY_ID": "7",
+            "APILink": "OD Warehouse",
+            "DataDesc": "OD Warehouse Details",
+            "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+          },
+            {
+              "id": 8,
+              "DISPLAY_ID": "8",
+              "APILink": "ODS Replication",
+              "DataDesc": "ODS Replication Monitoring",
+              "DataDetails": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi blanditiis, sapiente dolores sed ipsam quae tempore molestias delectus fugiat quisquam! Velit, minus. Cupiditate, in consequuntur et incidunt officia temporibus nostrum facilis voluptatem quasi dolore aliquid molestiae perspiciatis blanditiis nobis. Explicabo vero quae quam eum itaque, animi hic rerum aspernatur."
+            }
+       ]
+}
+
+  
